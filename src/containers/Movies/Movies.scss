@@ -1,0 +1,8 @@
+@import '../../colors.scss';
+
+.movies{
+    display:grid;
+    grid-template: repeat(4,1fr) / repeat(5,1fr);
+    background-color: $darkest;
+    padding-top:3em;
+}

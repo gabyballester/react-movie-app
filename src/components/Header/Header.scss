@@ -3,23 +3,31 @@
 header {
     display: flex;
     justify-content: space-around;
-    padding: .2em .8em;
-    background-color: $dark;
+    align-items: center;
+    padding: .3em 6em;
+    background-color: $solid;
     color: $dark;
+    height: 6em;
 
     a {
-        all: unset;
-
+        text-decoration:none;
         padding: .8em;
+        border: 1px solid grey;
         border-radius: .4em;
         cursor: pointer;
         background-color: $solid;
-        transition: all .5s;
-
-        a:hover {
-            background-color: $darkest;
-            color: $light;
+        transition: all .2s;
+        height: 2em;
+        align-items: center;
+        span{
+            font-size: 1.5em;
         }
+    }
+
+    a:hover {
+        background-color: $darkest;
+        color: $light;
+        border: none;
     }
 
 }

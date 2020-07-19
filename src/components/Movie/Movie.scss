@@ -5,11 +5,12 @@
     flex-direction:column;
     align-items: center;
     vertical-align: center;
-    padding: .8em;
-    margin: .8em;
+    padding: 0 .5em;
+    margin: 0 auto;
     background-color:$solid;
     width:80%;
     height:80%;
+    border-radius: .5em;
     h4{
         height:8em;
     }

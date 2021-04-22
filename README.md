@@ -1,4 +1,4 @@
-### React Movie App
+### React Web Movie App
 
 #### - Instalar dependencias
 ```

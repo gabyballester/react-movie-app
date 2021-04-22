@@ -1,6 +1,12 @@
-Proyecto creado con [Create React App](https://github.com/facebook/create-react-app).
+## React Movie App
 
-## Arranque de cliente de ReactJS
+### Instalar dependencias
+```
+yarn install
+```
+
+
+### Arranque de cliente de ReactJS
 ```
 yarn start
 ```
